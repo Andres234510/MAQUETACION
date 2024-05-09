@@ -1,5 +1,4 @@
 *{
-    background-color: #ffa200;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
@@ -8,13 +7,44 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #222;
-    display: flex;
+    background-color: #984008;
     justify-content: center;
-    align-items: center;
 }
   
-.card {
+header{
+    width: 90%;
+    height: 15%;
+    background-color: #ffa200;
+    display: flex;
+
+}
+header > nav{
+    width: 80%;
+    height: 100%;
+}
+nav > ul{
+    color: #481a00;
+}
+header > img{
+    width: 20%;
+    height: 100%;
+    background-color: #fffcea;
+    border-radius: 50%;
+}
+
+main{
+    width: 90%;
+    height: 70%;
+    background-color: #ffea85;
+    display: flex;
+}
+footer{
+    width: 90%;
+    height: 15%;
+    background-color: #ffa200;
+    display: flex
+}
+/* .card {
     width: 25rem;
     height: 30rem;
     border: double 2px #fff;
@@ -24,6 +54,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #bb5302;
 }
   
 .card > .btn-close {
@@ -59,4 +90,5 @@ body {
     background-color: #f28510;
     color: #fff;
     cursor: pointer;
-}
+} */
+
