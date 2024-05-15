@@ -2,93 +2,102 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-}
-  
-body {
-    width: 100vw;
-    height: 100vh;
-    background-color: #984008;
     justify-content: center;
 }
   
-header{
-    width: 90%;
-    height: 15%;
-    background-color: #ffa200;
+/* body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFCEA;
+    justify-content: center;
     display: flex;
+    flex-direction: column;
 
+} */
+  
+header{
+    width: 95%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to top, #481A00,#BB5302 );
 }
 header > nav{
-    width: 80%;
+    width: 85%;
     height: 100%;
 }
 nav > ul{
+    color: black;
+}
+
+.button{
+    margin: 0.5rem;
     color: #481a00;
+    border-radius: 8%;
+    cursor: pointer;
+    background-image: linear-gradient(to top, #FFEA85, #FFD846);
 }
 header > img{
-    width: 20%;
+    width: 15%;
     height: 100%;
     background-color: #fffcea;
     border-radius: 50%;
+    box-shadow: 0 0 10px #fffcea;
 }
 
 main{
-    width: 90%;
+    width: 95%;
     height: 70%;
-    background-color: #ffea85;
+    background-image: linear-gradient(to top, #FFA200, #E27A00);
     display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
-footer{
-    width: 90%;
-    height: 15%;
-    background-color: #ffa200;
-    display: flex
+
+.option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
 }
-/* .card {
-    width: 25rem;
-    height: 30rem;
-    border: double 2px #fff;
+
+.card {
+    width: 10rem;
+    height: 10rem;
+    margin: 5px;
     border-radius: 15px;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:end;
     align-items: center;
-    background-color: #bb5302;
-}
-  
-.card > .btn-close {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background-color: #3491d8;
-    color: #fff;
-    font-weight: 500;
-    cursor: pointer;
-    align-self: flex-end;
-    position: relative;
-    bottom: 1.8rem;
-    left: 10px;
+    background-image: linear-gradient(to top, #FFFCEA, #FFF4C5);
 }
   
 .card > img {
-    width: 80%;
-    height: 50%;
+    width: 100%;
+    height: 80%;
     border-radius: 15px;
 }
   
 .card > h2 {
-    font-size: 3rem;
-    color: #ffff00;
+    font-size: 125%;
+    color: #481A00;
 }
   
-.card > .btn-add {
-    width: 70%;
-    height: 2rem;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    background-color: #f28510;
-    color: #fff;
-    cursor: pointer;
-} */
+footer{
+    width: 95%;
+    min-height: 100px;
+    background-color: #BB5302;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #481A00, #BB5302 );
+}
+
+footer > a{
+    box-shadow: 0 0 10px #fffcea;
+}
 
